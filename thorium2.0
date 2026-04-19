@@ -74,7 +74,7 @@ class Config:
     PRECISION = Decimal('28')
     THORIUM_PRECISION = 8
     MIN_THORIUM_AMOUNT = Decimal('0.00000001')  # 1 Satoshi equivalent
-    MAX_THORIUM_SUPPLY = Decimal('21000000')
+    MAX_THORIUM_SUPPLY = Decimal('2100000000')
     
     # Mining configuration - Dynamic difficulty based on block height
     EASY_DIFFICULTY = 4      # First 100k blocks: 4 hex zeros
